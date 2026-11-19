@@ -1,0 +1,17 @@
+Diabetes Dataset Statistics Report
+Generated at,2026-11-19 17:42:07
+
+Column,Count,Mean,Median,Standard Deviation
+Pregnancies,25,3.36,3.0,2.53
+Glucose,25,133.76,132.0,32.35
+BloodPressure,25,75.72,76.0,9.12
+SkinThickness,25,30.4,31.0,6.78
+Insulin,25,127.64,120.0,41.68
+BMI,25,34.39,34.5,5.87
+DiabetesPedigreeFunction,25,0.46,0.42,0.27
+Age,25,37.64,38.0,13.22
+Outcome,25,0.48,0.0,0.51
+
+Dataset class,Record count
+0,13
+1,12

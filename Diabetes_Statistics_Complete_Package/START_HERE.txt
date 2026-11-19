@@ -1,0 +1,42 @@
+DIABETES DATASET STATISTICS - COMPLETE PACKAGE
+
+CONTENTS
+1. Presentation/
+   - 15-slide PowerPoint presentation
+   - Slide preview image
+2. Python_Project/
+   - main.py: terminal application
+   - data/diabetes_sample.csv: fictional sample data
+   - examples/: sample CSV copy
+   - requirements.txt: required packages
+   - README.md: detailed step-by-step instructions
+   - reports/: example generated charts and CSV report
+
+LIBRARIES USED
+- pandas
+- matplotlib
+- statistics (built into Python)
+- datetime (built into Python)
+- csv (built into Python)
+
+Only pandas and matplotlib need to be installed separately.
+
+RUN ON WINDOWS
+1. Extract this ZIP file.
+2. Open the Python_Project folder.
+3. Click the File Explorer address bar, type powershell, and press Enter.
+4. Run these commands one by one:
+
+   py --version
+   py -3 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install --upgrade pip
+   pip install -r requirements.txt
+   python main.py
+
+The terminal menu lets you inspect the CSV, calculate statistics, compare class averages,
+create graphs, and export a CSV report. See Python_Project/README.md for full instructions.
+
+IMPORTANT
+This is an educational data-analysis project only. It does not predict, diagnose, or assess
+diabetes. The included rows are fictional examples, not real patient records or a clinical dataset.
